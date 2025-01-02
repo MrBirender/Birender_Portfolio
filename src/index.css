@@ -1,3 +1,71 @@
+/* open sans and poppin font */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Base CSS Settings Using Tailwind's @apply */
+
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Settings */
+  body {
+    @apply bg-body-color text-text-color font-body text-normal;
+  }
+  
+  /* Headings (h1, h2, etc.) */
+  h1, h2, h3, h4 {
+    @apply  font-second font-bold;
+  }
+  
+  /* List Reset */
+  ul {
+    @apply list-none;
+  }
+  
+  /* Link Reset */
+  a {
+    @apply no-underline;
+  }
+  
+  /* Button, Input, Textarea Resets */
+  button, input, textarea {
+    @apply bg-transparent border-none outline-none ;
+  }
+  
+  /* Image Settings */
+  img {
+    @apply max-w-full;
+  }
+  
+
+  /* circular progress react */
+              /* CircularProgressbar Path Styles */
+ 
+  /* CircularProgressbar Path Styles */
+.CircularProgressbar-path {
+  stroke: var(--first-color) !important;
+  stroke-linecap: butt !important;
+}
+
+/* CircularProgressbar Trail Styles */
+.CircularProgressbar-trail {
+  stroke: var(--container-color) !important;
+}
+
+/* CircularProgressbar Text Styles */
+.CircularProgressbar-text {
+  fill: var(--title-color) !important;
+  font-family: var(--font-second);
+  font-size: var(--font-large) !important;
+}
+
+
+
