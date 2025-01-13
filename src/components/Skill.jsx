@@ -7,11 +7,11 @@ const Skill = () => {
   return (
     <>
       {skills.map(({id, title, percentage})=> (
-        <div id='box' className='text-center' key={id}>
+        <div id='box' className='text-center my-2' key={id}>
             <div className='w-[120px] h-[120px] mx-auto'>
                 <CircularProgressbar value={percentage} text={`${percentage}%`} />
             </div>
-            <h3 className='mt- font-body font-400 text-normal '>{title}</h3>
+            <h3 className=' font-body font-400 text-xl mt-4'>{title}</h3>
         </div>
       ))}
     </>
