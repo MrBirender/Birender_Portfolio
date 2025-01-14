@@ -11,7 +11,7 @@ const Skill = () => {
             <div className='w-[120px] h-[120px] mx-auto'>
                 <CircularProgressbar value={percentage} text={`${percentage}%`} />
             </div>
-            <h3 className=' font-body font-400 text-xl mt-4'>{title}</h3>
+            <h3 className=' font-body font-600 text-xl mt-4'>{title}</h3>
         </div>
       ))}
     </>

@@ -10,7 +10,7 @@ const PortfolioItems = ({ img, title, details }) => {
   return (
     <div
       id="portfolio item"
-      className="relative rounded-[10px] cursor-pointer overflow-hidden"
+      className="relative rounded-[10px] w-full cursor-pointer overflow-hidden"
     >
       <img className="h-[250px] w-full object-cover " src={img} alt="img" />
 
@@ -26,10 +26,10 @@ const PortfolioItems = ({ img, title, details }) => {
       </div>
 
       {/* portfolio model */}
-
+{/* [hsla(0,0%,0%,0.7)] */}
       {modal && (
-        <div id="modal" className="fixed inset-0 bg-[hsla(0,0%,0%,0.7)]  z-50 grid items-center justify-center px-4 py-4">
-          <div id="modalcontent" className="bg-container-color max-w-[650px] w-full px-10 py-10nnnp rounded-[10px] relative">
+        <div id="modal" className="fixed inset-0 bg-[hsla(0,0%,0%,0.7)] w-full  z-50 grid items-center justify-center px-4 py-4">
+          <div id="modalcontent" className="bg-container-color max-w-[650px] w-full px-10 py-10 rounded-[10px] relative">
             <img
             onClick={toggleModal}
               className="w-[50px] height-[50px] absolute -top-[3.5%] invert-[0.8] -right-[8.5%] cursor-pointer text-white"
