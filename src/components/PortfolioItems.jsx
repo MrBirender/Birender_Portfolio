@@ -3,7 +3,10 @@ import Close from "../assets/close.svg";
 const PortfolioItems = ({ img, title, details }) => {
   const [modal, setModal] = useState(false);
 
-  const toggleModal = () => {
+  const toggleModal = (title) => {
+    if (title === "Work Under Progress") {
+      return;
+    }
     setModal(!modal);
   };
 
@@ -18,7 +21,7 @@ const PortfolioItems = ({ img, title, details }) => {
       <div
         className="group bg-first-color absolute inset-0 grid items-center justify-center opacity-0 hover:transition-all hover:duration-500 hover:opacity-100 hover:ease-in-out"
         id="portfolio hover"
-        onClick={toggleModal}
+        onClick={() => toggleModal(title)}
       >
         <h3 className=" text-white text-large font-500 transform -translate-y-20 transition-all duration-700 ease-in-out group-hover:translate-y-0">
           {title}
