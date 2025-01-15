@@ -13,7 +13,7 @@ import Work1 from "./assets/cosmic.png";
 import Work2 from "./assets/Fitfles_planner.png";
 import Work3 from "./assets/fruitt.png";
 import Work4 from "./assets/virtual.png";
-import Work5 from "./assets/project-5.jpg";
+import Work5 from "./assets/forever.png";
 import Work6 from "./assets/project-6.jpg";
 
 import Theme1 from "./assets/purple.png";
@@ -220,23 +220,103 @@ export const skills = [
 export const portfolio = [
   {
     id: 1,
-    img: Work1,
-    title: "Photo Editing",
+    img: Work3,
+    title: "Fruit Market",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Photo",
+        desc: "Fruit Seller",
       },
       {
         icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
+        title: "For : ",
+        desc: "Learning",
       },
       {
         icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Photoshop",
+        title: "Tools : ",
+        desc: "React Js",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://dev-fruit-market.netlify.app/",
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    img: Work4,
+    title: "Virtua-R",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Virtual Reality",
+      },
+      {
+        icon: <FiUser />,
+        title: "For : ",
+        desc: "Learning", 
+      },
+      {
+        icon: <FaCode />,
+        title: "Tools : ",
+        desc: "React js",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://dev-virtual-r.netlify.app/",
+      },
+    ],
+  },
+
+  {
+    id: 3,
+    img: Work5,
+    title: "Forever-ecommerce",
+    details: [
+      {
+        title: "Project : ",
+        desc: "Ecommerce",
+      },
+      {
+        title: "For : ",
+        desc: "Learning",
+      },
+      {
+        title: "Tools : ",
+        desc: "React JS, Node JS, MongoDB",
+      },
+      {
+        title: "Preview : ",
+        desc: "https://froever-frontend.vercel.app/",
+      },
+    ],
+  },
+
+  {
+    id: 4,
+    img: Work1,
+    title: "Cosmic-Daily",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Image From Space",
+      },
+      {
+        icon: <FiUser />,
+        title: "For : ",
+        desc: "Learning",
+      },
+      {
+        icon: <FaCode />,
+        title: "Tools : ",
+        desc: "React JS",
       },
       {
         icon: <FiExternalLink />,
@@ -247,23 +327,23 @@ export const portfolio = [
   },
 
   {
-    id: 2,
+    id: 5,
     img: Work2,
-    title: "Website Design",
+    title: "FitFlex Planner",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Website",
+        desc: "Workout Planner",
       },
       {
         icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
+        title: "For : ",
+        desc: "Learning",
       },
       {
         icon: <FaCode />,
-        title: "Language : ",
+        title: "Tools : ",
         desc: "React JS",
       },
       {
@@ -275,104 +355,24 @@ export const portfolio = [
   },
 
   {
-    id: 3,
-    img: Work3,
-    title: "Video Editing",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Video",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Premium",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "https://dev-fruit-market.netlify.app/",
-      },
-    ],
-  },
-
-  {
-    id: 4,
-    img: Work4,
-    title: "Video Editing",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Video",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Premium",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "https://dev-virtual-r.netlify.app/",
-      },
-    ],
-  },
-
-  {
-    id: 5,
-    img: Work5,
-    title: "Landing Page",
-    details: [
-      {
-        title: "Project : ",
-        desc: "Website",
-      },
-      {
-        title: "Client : ",
-        desc: "Dribble",
-      },
-      {
-        title: "Language : ",
-        desc: "React JS, Node JS",
-      },
-      {
-        title: "Preview : ",
-        desc: "www.dribble.com",
-      },
-    ],
-  },
-
-  {
     id: 6,
     img: Work6,
-    title: "Photo Editing",
+    title: "Work Under Progress",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Photo",
+        desc: "Image From Text",
       },
       {
         icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
+        title: "For : ",
+        desc: "Learning",
       },
       {
         icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Photoshop",
+        title: "Tools : ",
+        desc: "Reactjs, OpenAI, Nodejs, MongoDB ",
       },
       {
         icon: <FiExternalLink />,
@@ -381,6 +381,7 @@ export const portfolio = [
       },
     ],
   },
+
 ];
 
 export const themes = [
