@@ -53,7 +53,7 @@ const Theme = () => {
   return (
     <div>
       <div
-        className={`fixed top-[10%] left-0 bg-text-white z-10 w-[220px] p-4 rounded-[0_5px_5px_0] shadow-[0_0_4px_hsl(0,0%,80%)] ${
+        className={`fixed top-[1px] md:top-[10%] left-0 bg-text-white z-10 w-[220px] p-4 rounded-[0_5px_5px_0] shadow-[0_0_4px_hsl(0,0%,80%)] ${
           showSwitcher
             ? "transform translate-x-0"
             : "transform -translate-x-full"
@@ -79,7 +79,7 @@ const Theme = () => {
           {theme === "light-theme" ? <BsMoon /> : <BsSun />}
         </div>
         <h2
-          className="text-title-color text-[16px] font-bold  border-b border-[hsl(0_0%_80%)] mb-4 pb-1 tracking-wider"
+          className="text-black text-[16px] font-bold  border-b border-[hsl(0_0%_80%)] mb-4 pb-1 tracking-wider"
           id="styleSwitherTitle"
         >
           Style Switcher

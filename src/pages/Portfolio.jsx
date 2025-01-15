@@ -5,7 +5,7 @@ import PortfolioItems from "../components/PortfolioItems";
 const Portfolio = () => {
   return (
     <section className="my-[40px] max-w-[1140px] mx-auto px-4 md:px-8 ">
-      <h2 className="text-big font-800 text-left md:text-center ">
+      <h2 className=" text-h2 md:text-big font-800  text-center ">
         My <span className="text-first-color">Portfolio</span>
       </h2>
 

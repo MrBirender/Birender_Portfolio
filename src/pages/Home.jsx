@@ -9,7 +9,7 @@ const Home = () => {
     <section className="grid grid-cols-1 gap-[30px] md:grid-cols-[4.32fr_7.68fr] items-center p-[16px] md:p-[40px] md:min-h-screen mt-16 md:mt-0 md:py-[20px] overflow-hidden">
       {/* Profile Image */}
       <img
-        className="w-[60%] md:h-[90%] md:w-[90%] object-cover rounded-full md:rounded-[30px] shadow-[0_0_8px_rgba(0,_0,_0,_0.3)]"
+        className="w-[60%] md:h-[90%] mx-auto md:w-[90%] object-cover rounded-full md:rounded-[30px] shadow-[0_0_8px_rgba(0,_0,_0,_0.3)]"
         src={Profile1}
         alt="profile_image"
       />

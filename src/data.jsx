@@ -6,248 +6,214 @@ import {
   FaBriefcase,
   FaGraduationCap,
   FaCode,
-} from 'react-icons/fa';
-import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
+} from "react-icons/fa";
+import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 
-import Work1 from './assets/project-1.jpeg';
-import Work2 from './assets/project-2.jpg';
-import Work3 from './assets/project-3.jpeg';
-import Work4 from './assets/project-4.jpeg';
-import Work5 from './assets/project-5.jpg';
-import Work6 from './assets/project-6.jpg';
+import Work1 from "./assets/cosmic.png";
+import Work2 from "./assets/Fitfles_planner.png";
+import Work3 from "./assets/fruitt.png";
+import Work4 from "./assets/virtual.png";
+import Work5 from "./assets/project-5.jpg";
+import Work6 from "./assets/project-6.jpg";
 
-import Theme1 from './assets/purple.png';
-import Theme2 from './assets/red.png';
-import Theme3 from './assets/blueviolet.png';
-import Theme4 from './assets/blue.png';
-import Theme5 from './assets/goldenrod.png';
-import Theme6 from './assets/magenta.png';
-import Theme7 from './assets/yellowgreen.png';
-import Theme8 from './assets/orange.png';
-import Theme9 from './assets/green.png';
-import Theme10 from './assets/yellow.png';
+import Theme1 from "./assets/purple.png";
+import Theme2 from "./assets/red.png";
+import Theme3 from "./assets/blueviolet.png";
+import Theme4 from "./assets/blue.png";
+import Theme5 from "./assets/goldenrod.png";
+import Theme6 from "./assets/magenta.png";
+import Theme7 from "./assets/yellowgreen.png";
+import Theme8 from "./assets/orange.png";
+import Theme9 from "./assets/green.png";
+import Theme10 from "./assets/yellow.png";
 
 export const links = [
   {
     id: 1,
-    name: 'Home',
-    icon: <FaHome className='nav__icon' />,
-    path: '/',
+    name: "Home",
+    icon: <FaHome className="nav__icon" />,
+    path: "/",
   },
 
   {
     id: 2,
-    name: 'About',
-    icon: <FaUser className='nav__icon' />,
-    path: '/about',
+    name: "About",
+    icon: <FaUser className="nav__icon" />,
+    path: "/about",
   },
 
   {
     id: 3,
-    name: 'Portfolio',
-    icon: <FaFolderOpen className='nav__icon' />,
-    path: '/portfolio',
+    name: "Portfolio",
+    icon: <FaFolderOpen className="nav__icon" />,
+    path: "/portfolio",
   },
 
   {
     id: 4,
-    name: 'Contact',
-    icon: <FaEnvelopeOpen className='nav__icon' />,
-    path: '/contact',
+    name: "Contact",
+    icon: <FaEnvelopeOpen className="nav__icon" />,
+    path: "/contact",
   },
 ];
 
 export const personalInfo = [
   {
     id: 1,
-    title: 'First Name : ',
-    description: 'Steve',
+    title: "First Name : ",
+    description: "Birender",
   },
 
   {
     id: 2,
-    title: 'Last Name : ',
-    description: 'Milner',
+    title: "Last Name : ",
+    description: "Yadav",
   },
 
   {
     id: 3,
-    title: 'Age : ',
-    description: '27 Years',
+    title: "Age : ",
+    description: "25 Years",
   },
 
   {
     id: 4,
-    title: 'Nationality : ',
-    description: 'Tunisian',
+    title: "Nationality : ",
+    description: "Indian",
   },
 
   {
     id: 5,
-    title: 'Freelance : ',
-    description: 'Available',
+    title: "Freelance : ",
+    description: "Available",
   },
 
   {
     id: 6,
-    title: 'Address : ',
-    description: 'Tunis',
+    title: "Address : ",
+    description: "Banglore, Karnatka",
   },
 
   {
     id: 7,
-    title: 'Phone : ',
-    description: '+21621184010',
+    title: "Phone : ",
+    description: "+91 9991239813",
   },
 
   {
     id: 8,
-    title: 'Email : ',
-    description: 'you@mail.com',
+    title: "Email : ",
+    description: "dev.birender@gmail.com",
   },
 
   {
     id: 9,
-    title: 'Skype : ',
-    description: 'steve.milner',
-  },
-
-  {
-    id: 10,
-    title: 'Langages : ',
-    description: 'French, English',
+    title: "Langages : ",
+    description: "Hindi, English",
   },
 ];
 
 export const stats = [
   {
     id: 1,
-    no: '12+',
-    title: 'Years of <br /> Experience',
+    no: "12+",
+    title: "Months of <br /> Experience",
   },
 
   {
     id: 2,
-    no: '97+',
-    title: 'Completed <br /> Projects',
+    no: "6+",
+    title: "Completed <br /> Projects",
   },
 
   {
     id: 3,
-    no: '81+',
-    title: 'Happy <br /> Customers',
+    no: "19+",
+    title: "Github <br /> Repositries",
   },
 
   {
     id: 4,
-    no: '53+',
-    title: ' Awards <br /> Won',
+    no: "5+",
+    title: " Certificates <br /> Awarded",
   },
 ];
 
 export const resume = [
   {
     id: 1,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    category: "education",
+    icon: <FaGraduationCap />,
+    year: "2024",
+    title: "Full Stack Web Development Course <span> Masai School </span>",
+    desc: "Completed an intensive Full Stack Web Development course specializing in the MERN stack, with hands-on projects including dynamic web applications and database integration.",
   },
-
   {
     id: 2,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    category: "education",
+    icon: <FaGraduationCap />,
+    year: "2020",
+    title: "Graduation (B.A) <span> MDU University, Rohtak </span>",
+    desc: "Focused on Physical Education, Geography, and Computer Studies, showcasing analytical thinking, problem-solving skills, and a technical mindset.",
   },
-
   {
     id: 3,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+    category: "experience",
+    icon: <FaGraduationCap />,
+    year: "2017",
+    title: "12th Grade <span> CBSE Board </span>",
+    desc: "Excelled in core subjects including Physics, Chemistry, and Mathematics, developing a strong foundation for higher education.",
   },
-
   {
     id: 4,
-    category: 'education',
+    category: "experience",
     icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
-  },
-
-  {
-    id: 5,
-    category: 'education',
-    icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
-  },
-
-  {
-    id: 6,
-    category: 'education',
-    icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    year: "2015",
+    title: "10th Grade <span> CBSE Board </span>",
+    desc: "Achieved high distinction across all core subjects, reflecting strong academic performance and dedication.",
   },
 ];
 
 export const skills = [
   {
     id: 1,
-    title: 'Html',
-    percentage: '25',
+    title: "HTML & CSS",
+    percentage: "85",
   },
-
   {
     id: 2,
-    title: 'Javascript',
-    percentage: '89',
+    title: "JavaScript",
+    percentage: "90",
   },
-
   {
     id: 3,
-    title: 'Css',
-    percentage: '70',
+    title: "React",
+    percentage: "88",
   },
-
   {
     id: 4,
-    title: 'Php',
-    percentage: '66',
+    title: "Tailwind CSS",
+    percentage: "80",
   },
-
   {
     id: 5,
-    title: 'Wordpress',
-    percentage: '95',
+    title: "Node.js",
+    percentage: "75",
   },
-
   {
     id: 6,
-    title: 'Jquery',
-    percentage: '50',
+    title: "Express.js",
+    percentage: "70",
   },
-
   {
     id: 7,
-    title: 'Angular',
-    percentage: '65',
+    title: "MongoDB",
+    percentage: "65",
   },
-
   {
     id: 8,
-    title: 'React',
-    percentage: '45',
+    title: "Git & GitHub",
+    percentage: "85",
   },
 ];
 
@@ -255,27 +221,27 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Photo Editing',
+    title: "Photo Editing",
     details: [
       {
         icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Photo',
+        title: "Project : ",
+        desc: "Photo",
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: "Client : ",
+        desc: "Dribble",
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        title: "Language : ",
+        desc: "Adobe Photoshop",
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: "Preview : ",
+        desc: "https://cosmicdaily1.netlify.app/",
       },
     ],
   },
@@ -283,27 +249,27 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: 'Website Design',
+    title: "Website Design",
     details: [
       {
         icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Website',
+        title: "Project : ",
+        desc: "Website",
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: "Client : ",
+        desc: "Dribble",
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'React JS',
+        title: "Language : ",
+        desc: "React JS",
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: "Preview : ",
+        desc: "https://fitflexplanner.netlify.app/",
       },
     ],
   },
@@ -311,27 +277,27 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: 'Video Editing',
+    title: "Video Editing",
     details: [
       {
         icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Video',
+        title: "Project : ",
+        desc: "Video",
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: "Client : ",
+        desc: "Dribble",
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Premium',
+        title: "Language : ",
+        desc: "Adobe Premium",
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: "Preview : ",
+        desc: "https://dev-fruit-market.netlify.app/",
       },
     ],
   },
@@ -339,27 +305,27 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: 'Video Editing',
+    title: "Video Editing",
     details: [
       {
         icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Video',
+        title: "Project : ",
+        desc: "Video",
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: "Client : ",
+        desc: "Dribble",
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Premium',
+        title: "Language : ",
+        desc: "Adobe Premium",
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: "Preview : ",
+        desc: "https://dev-virtual-r.netlify.app/",
       },
     ],
   },
@@ -367,23 +333,23 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: 'Landing Page',
+    title: "Landing Page",
     details: [
       {
-        title: 'Project : ',
-        desc: 'Website',
+        title: "Project : ",
+        desc: "Website",
       },
       {
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: "Client : ",
+        desc: "Dribble",
       },
       {
-        title: 'Language : ',
-        desc: 'React JS, Node JS',
+        title: "Language : ",
+        desc: "React JS, Node JS",
       },
       {
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: "Preview : ",
+        desc: "www.dribble.com",
       },
     ],
   },
@@ -391,27 +357,27 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    title: 'Photo Editing',
+    title: "Photo Editing",
     details: [
       {
         icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Photo',
+        title: "Project : ",
+        desc: "Photo",
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: "Client : ",
+        desc: "Dribble",
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        title: "Language : ",
+        desc: "Adobe Photoshop",
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dibble.com',
+        title: "Preview : ",
+        desc: "www.dibble.com",
       },
     ],
   },
@@ -421,60 +387,60 @@ export const themes = [
   {
     id: 1,
     img: Theme1,
-    color: 'hsl(252, 35%, 51%)',
+    color: "hsl(252, 35%, 51%)",
   },
 
   {
     id: 2,
     img: Theme2,
-    color: 'hsl(4, 93%, 54%)',
+    color: "hsl(4, 93%, 54%)",
   },
 
   {
     id: 3,
     img: Theme3,
-    color: 'hsl(271, 76%, 53%)',
+    color: "hsl(271, 76%, 53%)",
   },
 
   {
     id: 4,
     img: Theme4,
-    color: 'hsl(225, 73%, 57%)',
+    color: "hsl(225, 73%, 57%)",
   },
 
   {
     id: 5,
     img: Theme5,
-    color: 'hsl(43, 74%, 49%)',
+    color: "hsl(43, 74%, 49%)",
   },
 
   {
     id: 6,
     img: Theme6,
-    color: 'hsl(339, 81%, 66%)',
+    color: "hsl(339, 81%, 66%)",
   },
 
   {
     id: 7,
     img: Theme7,
-    color: 'hsl(80, 61%, 50%)',
+    color: "hsl(80, 61%, 50%)",
   },
 
   {
     id: 8,
     img: Theme8,
-    color: 'hsl(19, 96%, 52%)',
+    color: "hsl(19, 96%, 52%)",
   },
 
   {
     id: 9,
     img: Theme9,
-    color: 'hsl(88, 65%, 43%)',
+    color: "hsl(88, 65%, 43%)",
   },
 
   {
     id: 10,
     img: Theme10,
-    color: 'hsl(42, 100%, 50%)',
+    color: "hsl(42, 100%, 50%)",
   },
 ];

@@ -1,6 +1,6 @@
 import React from "react";
 import { FaDownload } from "react-icons/fa6";
-import CV from "../assets/steve-Cv.pdf";
+import CV from "../assets/Resume.pdf";
 import Info from "../components/Info";
 import Stats from "../components/Stats";
 import Skill from "../components/Skill";
@@ -13,13 +13,13 @@ const About = () => {
       {/* presonal info */}
       <section>
         {/* about me */}
-        <h2 className="text-big font-800 text-left md:text-center ">
+        <h2 className="text-big font-800 text-center pl-4 ">
           About <span className="text-first-color">Me</span>
         </h2>
-        <div className="about_container grid gap-[30px]  grid-cols-1 md:grid-cols-2 mt-[50px]">
-          <div>
-            <h3 className="text-h3 font-600 ">Personal Infos</h3>
-            <ul className="grid gap-[10px] grid-cols-1 md:grid-cols-2 mt-5">
+        <div className="about_container grid gap-[30px]  grid-cols-1 md:grid-cols-2 mt-[20px] md:mt-[50px]">
+          <div >
+            <h3 className="text-h2 md:text-h3 font-600 ">Personal Info</h3>
+            <ul className="grid gap-[10px] grid-cols-1 md:grid-cols-2  mt-5">
               <Info />
             </ul>
             <a
@@ -66,7 +66,7 @@ const About = () => {
           {/* experience */}
           <div id="resume-data" className="pl-[20px]">
             {resume.map((item) => {
-              if(item.category === 'experience'){
+              if(item.category === 'education'){
                 return (
                 <ResumeItem  key={item.id} {...item}/>
               )
@@ -77,7 +77,7 @@ const About = () => {
           {/* education */}
           <div id="resumeData"  className="pl-[20px]">
             {resume.map((item) => {
-              if(item.category === 'education'){
+              if(item.category === 'experience'){
                 return <ResumeItem key={item.id} {...item}/>
               }
             })}
